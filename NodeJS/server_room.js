@@ -7,14 +7,7 @@ server.listen(process.env.PORT || 8080, ()=>{
     console.log("Server start at port "+server.address().port);
 });
 
-//var wsList = [];
 var roomList = [];
-/*
-{
-    roomName: ""
-    wsList: []
-}
-*/
 
 wss.on("connection", (ws)=>{
     
@@ -124,7 +117,6 @@ wss.on("connection", (ws)=>{
                 }
                 if(roomList[i].roomName != toJsonObj.data)
                 {
-                    
                     var callbackMsg = {
                         eventName:"JoinRoom",
                         data:"fail"
@@ -242,4 +234,3 @@ function Boardcast(data)
         wsList[i].send(data);
     }*/
 }
-

@@ -5,16 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Assignment_Week2_ProgramChat/Scenes/ProgramChat.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
-    path: Assets/Assignment_Week2_ProgramChat/Scenes/Chat.unity
-    guid: 67b5f049b284b1c41979d44f33b99a50
   - enabled: 1
-    path: Assets/Assignment_Week3_RoomChat/Scenes/LoginRoom.unity
-    guid: d4003074b38a3ce4a967ce3a9f5c69d9
+    path: Assets/Assignment_Week5_Auth/Scenes/LoginRegisterRoom.unity
+    guid: dcb0aa829dde65c44aa800af3acf5fa6
   - enabled: 1
-    path: Assets/Assignment_Week3_RoomChat/Scenes/LobbyRoom.unity
-    guid: c3390e40e4db640458c570d975348e0a
+    path: Assets/Assignment_Week5_Auth/Scenes/LobbyRoom.unity
+    guid: 713bfc975cccd0c48b822a0f3db1b175
   m_configObjects: {}
